@@ -1,0 +1,71 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Simple Quiz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <div>
+      <h2 class="text-center font-semibold text-3xl text-slate-800 m-3">
+        Sam Institute Computer Based Test
+      </h2>
+      <p
+        class="text-center text-slate-800 font-semibold text-xl w-5/12 mx-auto"
+      >
+        Experts in computer based testing software development and web
+        applications
+      </p>
+    </div>
+
+    <!-- div for time countdown -->
+
+    <div>
+      <p
+        class="pt-6 text-2xl text-center text-slate-800 font-bold"
+        id="countdown"
+      ></p>
+    </div>
+    <!-- div for instruction of the subject to be taken. -->
+
+    <div class="b-slate-100">
+      <h3 class="ml-20 text-xl font-semibold pt-8 text-slate-800">
+        SUBJECT: GENERAL KNOWLEDGE
+      </h3>
+      <p class="ml-20 text-xl font-semibold text-slate-800">
+        INSTRUCTION:
+        <em class="text-lg"
+          >Select correct answer from the options lettered A-D .When you click
+          START your time starts.
+        </em>
+      </p>
+    </div>
+    <div>
+      <p id="display" class="pt-4"></p>
+      <p id="disp" class="pb-8"></p>
+    </div>
+    <div class="pt-30">
+      <button
+        onclick=""
+        class="pt-30 text-center flex ml-20 items-left font-semibold rounded-lg bg-slate-800 p-3 text-slate-50"
+        id="start"
+        --
+      >
+        START
+      </button>
+    </div>
+    <div></div>
+    <button
+      onclick="mySlide('next')"
+      class="pt-30 mr-20 text-center flex justify-between items-left font-semibold rounded-lg bg-slate-800 p-3 text-gray-50"
+      id="nextpage"
+    >
+      NEXT</button
+    ><br />
+    <script src="quiz.js"></script>
+  </body>
+</html>
